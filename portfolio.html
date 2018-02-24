@@ -1,79 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Melissa Gilman | Portfolio </title>
-        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-        <script src="main.js"></script>
-    </head>
-    <body>
-        <!-- Header: Container: Name & Nav: ul -->
-        <header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Melissa Gilman</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
             <div class="container">
-                <h1 class="my_name">Melissa Gilman</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">About</a> </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="no-right-border"><a href="contact.html">Contact </a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <!-- container: article & side_bar -->
-        <div class="container"> 
-            <article>
-                <h2>Portfolio</h2>
-                <div id="portfolio_images">
-                    <!-- 1st Image -->
-                    <div class="img_with_banner">
-                        <img src="./assets/images/sadpuppy.jpg" alt="Hangman">
-                        <h4>Hangman</h4>
-                    </div>
-                    <!-- 2nd Image -->
-                    <div class="img_with_banner">
-                        <img src="./assets/images/dressup.jpg" alt="RPG Game">
-                        <h4>RPG Game</h4>
-                    </div>
-                    <!-- 3rd Image -->
-                    <div class="img_with_banner">
-                        <img src="./assets/images/disguisedog.jpg" alt="Trivia Game">
-                        <h4>Trivia Game</h4>
-                    </div>
-                     <!-- 4th Image -->
-                    <div class="img_with_banner">
-                        <img src="./assets/images/puginablanket.jpg" alt="Info Widget">
-                        <h4>Info Widget</h4>
-                    </div>
-                    <!-- 5th Image -->
-                    <div class="img_with_banner">
-                        <img src="./assets/images/partydog.jpg" alt="Rock Paper Scissors">
-                        <h4>Rock Paper Scissors</h4>
-                    </div>
+            <a class="logo navbar-brand p-3" href="#">Melissa Gilman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="col-md-4 navbar-nav ml-auto mr-5">
+                <a class="nav-item nav-link active mx-2" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link mx-2" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link mx-2" href="contact.html">Contact</a>
                 </div>
-            </article>
-            <div id="side_bar">
-                <h3>Connect with Me</h3>
-                <div class="img_holder">
-                    <a href="https://github.com/m-gilman" target="_blank">
-                        <img src="./assets/images/github.png" alt="Github icon" width="50">
-                    </a>
-                    <a href="https://www.linkedin.com/in/melissa-gilman/" target="_blank">
-                        <img src="./assets/images/linkedin.png" alt="Linked-in icon" width="50">
-                    </a>
-                    <a href="https://stackoverflow.com/users/8974619/melissa-gilman" target="_blank">
-                        <img src="./assets/images/stackof.png" alt="Stack Overflow icon" width="50">
-                    </a>
+            </div>
+            </div>
+        </nav>
+    </header>
+  <div class="container mb-5">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 bg-white pl-4 mr-5 mt-5">
+            <h1 class="main_title py-3 mb-4">Portfolio</h1>
+                <!-- portfolio CONTENT -->
+            <div class="container">
+                <!-- 1st Image -->
+                <div class="img_with_banner">
+                    <img src="./assets/images/sadpuppy.jpg" alt="Hangman" class="img-fluid" width="270">
+                    <h4>Hangman</h4>
+                </div>
+                <!-- 2nd Image -->
+                <div class="img_with_banner">
+                    <img src="./assets/images/dressup.jpg" alt="RPG Game" class="img-fluid" width="270">
+                    <h4>RPG Game</h4>
+                </div>
+                <!-- 3rd Image -->
+                <div class="img_with_banner">
+                    <img src="./assets/images/disguisedog.jpg" alt="Trivia Game" class="img-fluid" width="270">
+                    <h4>Trivia Game</h4>
+                </div>
+                  <!-- 4th Image -->
+                <div class="img_with_banner">
+                    <img src="./assets/images/puginablanket.jpg" alt="Info Widget" class="img-fluid" width="270">
+                    <h4>Info Widget</h4>
+                </div>
+                <!-- 5th Image -->
+                <div class="img_with_banner">
+                    <img src="./assets/images/partydog.jpg" alt="Rock Paper Scissors" class="img-fluid" width="270">
+                    <h4>Rock Paper Scissors</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 ">
+                <div class="container bg-white text-center pb-5 pt-3 mt-5">
+                    <h2 class="main_title mb-4">Connect with Me</h2>
+                    <a href="https://github.com/m-gilman"><img src="assets/images/github-128.png" class="social" alt="Github icon" width="60"/></a>
+                    <a href="https://www.linkedin.com/in/melissa-gilman/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" width="60"/></a>
+                    <a href="https://stackoverflow.com/users/8974619/melissa-gilman"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" width="60"/></a>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer>
-            <p>Copyright &copy; 2018 Melissa Gilman</p>
-        </footer>
-    </body>
+    </div>
+    <footer class="mt-5">
+        <div class="container text-center">
+            &copy; Copyright 2018 Melissa Gilman
+        </div>
+    </footer>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- / JavaScript -->
+</body>
 </html>
+

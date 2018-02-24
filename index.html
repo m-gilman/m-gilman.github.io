@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Melissa Gilman | About </title>
-        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-        <script src="main.js"></script>
-    </head>
-    
-    <body>
-        <!-- Header: Container: Name & Nav: ul -->
-        <header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Melissa Gilman</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
             <div class="container">
-                <h1 class="my_name">Melissa Gilman</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">About</a> </li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li class="no-right-border"><a href="contact.html">Contact </a></li>
-                    </ul>
-                </nav>
+            <a class="logo navbar-brand p-3" href="#">Melissa Gilman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="col-md-4 navbar-nav ml-auto mr-5">
+                <a class="nav-item nav-link active mx-2" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link mx-2" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link mx-2" href="contact.html">Contact</a>
+                </div>
             </div>
-        </header>
-        
-        <!-- content_area: article & side_bar: ul -->
-        <div class="container"> 
-            <article>
-                <h2>About Me</h2>
-                <img class="left_article_photo" src="./assets/images/Selfie3.png" alt="A photo of Melissa" width="150">
-                <p>I am currently enrolled in Coding Bootcamp at the University of Denver. Soon I will be an awesome web developer. Right now, however, I feel like a total noob! I think CSS is difficult and I hope to figure out how it all works very soon! </p>
-                <p>I get really excited when my text successfully floats around my photos. I keep adding and taking away margins and padding until sheer luck kicks in and sometimes... it works! </p>
-            </article>
-            <div id="side_bar">
-                <h3>Connect with Me</h3>
-                <div class="img_holder">
-                    <a href="https://github.com/m-gilman" target="_blank">
-                        <img src="./assets/images/github.png" alt="Github icon" width="50">
-                    </a>
-                    <a href="https://www.linkedin.com/in/melissa-gilman/" target="_blank">
-                        <img src="./assets/images/linkedin.png" alt="Linked-in icon" width="50">
-                    </a>
-                    <a href="https://stackoverflow.com/users/8974619/melissa-gilman" target="_blank">
-                        <img src="./assets/images/stackof.png" alt="Stack Overflow icon" width="50">
-                    </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 bg-white mr-5 mt-5">
+                <h1 class="main_title">Web Developer by day... and night</h1>
+                <img src="assets/images/Selfie3.png" class="auth-image float-left mr-3" alt="Melissa Gilman" width="100">
+                <p>I grew up in the beautiful landscape of  Colorado. I graduated from Hardin-Simmons University in Abilene, TX in 2004 with a B.A. degree in Psychology.</p>
+                <p>I love learning new things and when I discovered coding, I became very passionate about it.  </p>
+                <p>I recently decided to invest in myself and my abilities as a developer. I enrolled in a Coding Bootcamp at the University of Denver for Full Stack Web Development and I haven't looked back.</p>
+                <p>When I'm not learning something new about web development, I am buried under craft supplies, cooking up something new, or spending time with my husband, kids and dog. </p>
+            </div>
+       
+            <div class="col-sm-6 col-md-3 ">
+                <div class="container bg-white text-center pb-5 pt-3 mt-5">
+                    <h2 class="main_title mb-4">Connect with Me</h2>
+                    <a href="https://github.com/m-gilman"><img src="assets/images/github-128.png" class="social" alt="Github icon" width="60"/></a>
+                    <a href="https://www.linkedin.com/in/melissa-gilman/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" width="60"/></a>
+                    <a href="https://stackoverflow.com/users/8974619/melissa-gilman"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" width="60"/></a>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer>
-            <p>Copyright &copy; 2018 Melissa Gilman</p>
-        </footer>
-    </body>
+    </div>
+    <footer class="mt-5">
+        <div class="container">
+            &copy; Copyright 2018 Melissa Gilman
+        </div>
+    </footer>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- / JavaScript -->
+</body>
 </html>
