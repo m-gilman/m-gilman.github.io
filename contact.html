@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Melissa Gilman</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Melissa Gilman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
+
 <body>
     <header>
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
-        <div class="container">
-            <a class="logo navbar-brand p-3" href="https://m-gilman.github.io/">Melissa Gilman</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+            <div class="container">
+                <a class="logo navbar-brand p-3" href="https://m-gilman.github.io/">Melissa Gilman</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="https://m-gilman.github.io/index.html">About</a>
                         </li>
@@ -29,17 +32,36 @@
                             <a class="nav-link active" href="https://m-gilman.github.io/contact.html">Contact</a>
                         </li>
                     </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-7 bg-white mr-5 mt-5">
-                    <h1 class="main_title py-3 mb-4">Contact</h1>
-                    <p>The best way to contact me is through Linked In:</p>
-                    <a href="https://www.linkedin.com/in/melissa-gilman/"><img src="assets/images/linkedin-128.png" class="social mb-3" alt="LinkedIn" width="60"/></a>
-                    <!-- <form class="pb-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 bg-white mr-5 mt-5">
+                <h1 class="main_title py-3 mb-4">Contact</h1>
+                <h4>Email Me:</h4>
+                <form action="MAILTO:m.gilman3@gmail.com" method="POST" enctype="text/plain">
+                    <h6>Your Name:</h6>
+                    <input type="text" name="from">
+                    <br />
+                    <h6>Your Organization:</h6>
+                    <input type="text" name="organization">
+                    <br />
+                    <h6>Your Email Address:</h6>
+                    <input type="text" name="REPLYTO:">
+                    <br />
+                    <h6>Message: </h6>
+                    <textarea rows="10" cols="50"> </textarea>
+                    <br />
+                    <input type="submit" value="send">
+                </form>
+
+                <h4>Contact me through Linked In:</h4>
+                <a href="https://www.linkedin.com/in/melissa-gilman/">
+                    <img src="assets/images/linkedin-128.png" class="social mb-3" alt="LinkedIn" width="60" />
+                </a>
+                <!-- <form class="pb-3">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" class="form-control" placeholder="John Smith">
@@ -54,18 +76,24 @@
                         </div>
                         <button type="submit" class="btn btn-default">Submit</button>
                     </form> -->
-                </div>
-                <div class="col-sm-6 col-md-3 ">
-                    <div class="container bg-white text-center pb-5 pt-3 mt-5">
-                        <h2 class="main_title mb-4">Connect with Me</h2>
-                        <a href="https://github.com/m-gilman"><img src="assets/images/github-128.png" class="social" alt="Github icon" width="60"/></a>
-                        <a href="https://www.linkedin.com/in/melissa-gilman/"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" width="60"/></a>
-                        <a href="https://stackoverflow.com/users/8974619/melissa-gilman"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" width="60"/></a>
-                    </div>
+            </div>
+            <div class="col-sm-6 col-md-3 ">
+                <div class="container bg-white text-center pb-5 pt-3 mt-5">
+                    <h2 class="main_title mb-4">Connect with Me</h2>
+                    <a href="https://github.com/m-gilman">
+                        <img src="assets/images/github-128.png" class="social" alt="Github icon" width="60" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/melissa-gilman/">
+                        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" width="60" />
+                    </a>
+                    <a href="https://stackoverflow.com/users/8974619/melissa-gilman">
+                        <img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" width="60" />
+                    </a>
                 </div>
             </div>
         </div>
-    
+    </div>
+
     <footer class="mt-5">
         <div class="container text-center">
             &copy; Copyright 2018 Melissa Gilman
@@ -75,12 +103,15 @@
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- / JavaScript -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- / JavaScript -->
 </body>
-</html>
 
+</html>
